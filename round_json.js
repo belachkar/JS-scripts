@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Parameters
-const inputFile = process.argv[2]; // e.g., "model_metrics_2025_04_29_03_22_20.json"
+const inputFile = process.argv[2];
 const decimals = parseInt(process.argv[3] || '4', 10); // e.g., 4
 
 if (!inputFile) {
